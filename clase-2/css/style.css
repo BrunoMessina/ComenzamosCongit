@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+
+
+body{
+    /* propiedad; valor */
+    background-color: rgb(14, 73, 2);
+    color: antiquewhite;
+}
+
+/* estilos a la seccion principal */
+
+.div-container{
+    background-color: rgb(92, 34, 185);
+    /* height: 900px; */
+    padding: 10px;
+}
+
+.div-hijo{
+    background-color: darkgoldenrod;
+    padding: 5px;
+    /* height: 400px; */
+    margin: 10px;
+    width: 25%;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 10px;
+    font-family: 'Lilita One', cursive;
+}
+img{
+    height: 250px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.div-container > .div-hijo p{
+    color: darkgreen;
+    font-size: larger;
+}
